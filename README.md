@@ -1,6 +1,11 @@
 # Fundraising-for-Charity-Organization
 ## NGO Charity Organization Data Analysis
 
+**Interact with Dashboard:**
+
+https://public.tableau.com/app/profile/oladele.oladimeji.samuel/viz/Donationbystate/Dashboard1
+https://public.tableau.com/app/profile/oladele.oladimeji.samuel/viz/Donation-Donordata/Dashboard2
+
 ### INTRODUCTION
 I was given a hypothetical situation that I am a Data Analyst working for the charity, Education for ALL. I have been asked by the Head of Fundraising to present the data on donor insights and donation rates.
 
@@ -50,13 +55,13 @@ Moreover, I applied Root Cause Analysis to ask:
 
 ### INSIGHTS FROM THE ANALYSIS
 
-- I have been provided with 2 relational databases such as: 
-- FO_Donation_Data and EFO_Donor_Data to answer the business problem.
+- I have been provided with 2 relational databases such as: FO_Donation_Data and EFO_Donor_Data to answer the business problem.
 - SQLite Database Management System was used to find out main insights.
 - Donation Dataset includes such data: Id, First name, Last Name, Email, Gender, Job field, Donation, State, Shirt Size.
 - Donor Dataset includes such data: Id, Donation frequency, University, Car, Second language, Favourite colour, Movie genre.
 - Both data sets were imported into SQLite.
 - SELECT statement was used to fetch data from a database.
+- Tableau was used for Report visualization
 
 Some other aggregate functions were used such as;
 
@@ -168,194 +173,27 @@ As a result of data set analysis, I have found out:
 - The largest amount of donations $500
 - The smallest amount of donation is $5
   
-Total fund raised from each state. More donors from california, Texas and Florida
-Top 10 donors
-state
-total_donor
-total_donation
-California
-113
-30264
-Texas
-95
-24097
-Florida
-90
-20562
-New York
-58
-14759
-Virginia
-39
-10750
-Illinois
-34
-8674
-North Carolina
-33
-6328
-Georgia
-33
-8046
-Ohio
-32
-6876
-Tennessee
-30
-8316
-Frequency of donation. We have more donation from donors who donated once and yearly
-donation_frequency
-total_donor
-total_donation
-Yearly
-259
-65667
-Once
-264
-64586
-Monthly
-232
-59680
-Weekly
-245
-59152
-15
-Top 10 donors with a university education
-first_name
-last_name
-university
-donation
-Beverlie
-Andriesse
-Walasik
-500
-Wallie
-Leather
-Leithgoe
-500
-Clevie
-Camilletti
-Sparhawk
-499
-Peder
-Rilton
-Antoszewski
-499
-Worthy
-Le feaver
-Trotton
-498
-Amalea
-Knill
-Rockcliffe
-497
-Tonnie
-Stockney
-Cominetti
-494
-Corbett
-Lansdale
-Coates
-494
-Nathaniel
-McGenn
-Baumber
-494
-Beverlee
-Camacke
-Armatidge
-493
-Top 10 donors without university education
-first_name
-last_name
-university
-donation
-Corbin
-Rawne
-null
-493
-Hurley
-Bogey
-null
-492
-Padraig
-Trittam
-null
-488
-Nico
-Twinterman
-null
-484
-Wilma
-Tummond
-null
-483
-Clyde
-O'Kenny
-null
-482
-Huntlee
-Durbin
-null
-480
-Bernice
-Hinchshaw
-null
-480
-Veronika
-Marioneau
-null
-476
-Jeffrey
-Lehmann
-null
-473
-16
-Those that gave once. What kind of job do they do, which top 5 industry has more donor?
-job_field
-total_donor
-total_donation
-Business Development
-31
-7293
-Product Management
-28
-7129
-Accounting
-27
-7257
-Training
-25
-6680
-Support
-23
-6296
-Those that gave yearly. What kind of job do they do and which top 5 industry has more donor?
-job_field
-total_donor
-total_donation
-Research and Development
-28
-8529
-Human Resources
-28
-7434
-Business Development
-27
-6454
-Services
-25
-6680
-Product Management
-23
-5384
-17
-CONCLUSION
+
+**Top 10 donors with a university education**
+
+<img width="761" alt="image" src="https://github.com/mrdimejisam/Fundraising-for-Charity-Organization/assets/111657348/bf36bba3-062d-473e-92ce-98078f3cf56c">
+
+**We have more donation from donors who donated once**
+
+<img width="768" alt="image" src="https://github.com/mrdimejisam/Fundraising-for-Charity-Organization/assets/111657348/440e958f-d2a8-4d17-b26f-c4df51dc6b0e">
+
+
+### CONCLUSION
+
 I have analysed 2 data sets FO_Donation_Data and EFO_Donor_Data to help Education for ALL to understand business problem of involving new donors more deeply and find a way to raise more donations with regular frequency.
+
 Therefore, our donors include different types of people with varying identities. They live in different states, work in absolutely unsimilar job fields, some of them have university education and some of them no.
+
 However, there are some crucial points that we need to count and try to use for increasing charity activeness of our donors and their donations.
 I have found out that frequency of Yearly and Once donations is much higher than Monthy. Weekly frequency is very low. So, we need to work on improvement of donation frequency, especially Weekly donations. Also, we have some people in our base who do not donate at all, so maybe we should contact them and try to realise why they are not active donors. I also found out that the occupation of our donors have no influence on the amount of donation. Job field is not crucial thing.
+
 Also, we need to attract more donors from other states, since now majority of them are from Florida, California and Texas.
 Majority of donations come from donors who are car owners. 939 donors own a car while 61 donors do not have a car. Another very significant point is that top 10 donors, who donate between $493 and $500 have university education. Thus, we can notice that people, who are educated themselves are happy to support others to get education. Some people with no university education also provide big amounts, but few of them.
+
 In conclusion, we must concentrate to improve our databases, add more useful information about our donors. There is lack of valuable data. Genre, Movies are not useful to solve our business problems. We must find useful channels for promoting our charity organisation.
 Since we have good support among educated people, we could organize seminars in universities or set up awareness schemes to sensitize students about us
