@@ -7,7 +7,7 @@ https://public.tableau.com/app/profile/oladele.oladimeji.samuel/viz/Donationbyst
 https://public.tableau.com/app/profile/oladele.oladimeji.samuel/viz/Donation-Donordata/Dashboard2
 
 ### INTRODUCTION
-I was given a hypothetical situation that I am a Data Analyst working for the charity, Education for ALL. I have been asked by the Head of Fundraising to present the data on donor insights and donation rates.
+I was given a hypothetical situation as a Data Analyst working for the charity, Education for ALL. I have been asked by the Head of Fundraising to present the data on donor insights and donation rates.
 
 Within the Fundraising team, my objectives are to:
 
